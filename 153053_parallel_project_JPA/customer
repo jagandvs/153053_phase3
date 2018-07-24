@@ -1,0 +1,11 @@
+create table customer(
+mobilenumber varchar(10) primary key,
+name varchar(20) );
+
+create table wallet(
+mobilenumber varchar(10) primary key,
+balance number(10));
+
+create table transaction(
+mobilenumber varchar(12),
+statement varchar(500));
